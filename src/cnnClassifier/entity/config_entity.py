@@ -19,3 +19,27 @@ class PrepareBaseModelConfig:
     params_include_top:bool
     params_weight:str
     params_classes:int
+
+
+@dataclass(frozen=True)
+class PrepareCallbackConfig:
+    root_dir:Path
+    tensorboard_root_log_dir:Path
+    checkpoint_model_file_path:Path
+
+
+@dataclass
+class ModelTrainerConfig:
+    root_dir:Path
+    trained_model_file_path:Path
+    updated_base_model:Path
+    training_data:Path
+    params_epochs:int
+    params_batch_size:int
+    params_is_augmentation:bool
+    params_image_size:int
+    params_learning_rate:int
+
+
+
+    

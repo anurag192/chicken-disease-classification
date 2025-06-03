@@ -50,4 +50,4 @@ class PrepareBaseModel:
 
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        model.save(str(path))
+        model.save(str(path),include_optimizer=False)

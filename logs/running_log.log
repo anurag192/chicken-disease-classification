@@ -109,3 +109,385 @@ Source-Age: 1
 2025-06-03 10:31:36,328 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 2025-06-03 10:31:36,612 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 2025-06-03 10:31:36,783 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 11:45:34,931 - INFO - config\config.yaml loaded successfully
+2025-06-03 11:45:34,948 - INFO - params.yaml loaded successfully
+2025-06-03 11:45:34,956 - INFO - Created directory artifacts
+2025-06-03 11:45:34,956 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 11:45:34,964 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 11:46:12,038 - INFO - config\config.yaml loaded successfully
+2025-06-03 11:46:12,046 - INFO - params.yaml loaded successfully
+2025-06-03 11:46:12,054 - INFO - Created directory artifacts
+2025-06-03 11:46:12,054 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 11:46:12,062 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 11:46:43,716 - INFO - config\config.yaml loaded successfully
+2025-06-03 11:46:43,724 - INFO - params.yaml loaded successfully
+2025-06-03 11:46:43,724 - INFO - Created directory artifacts
+2025-06-03 11:46:43,724 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 11:46:43,732 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 11:50:33,714 - INFO - config\config.yaml loaded successfully
+2025-06-03 11:50:33,719 - INFO - params.yaml loaded successfully
+2025-06-03 11:50:33,728 - INFO - Created directory artifacts
+2025-06-03 11:50:33,729 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 11:50:33,729 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 11:51:53,608 - INFO - config\config.yaml loaded successfully
+2025-06-03 11:51:53,615 - INFO - params.yaml loaded successfully
+2025-06-03 11:51:53,618 - INFO - Created directory artifacts
+2025-06-03 11:51:53,622 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 11:51:53,625 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 12:24:02,009 - INFO - config\config.yaml loaded successfully
+2025-06-03 12:24:02,017 - INFO - params.yaml loaded successfully
+2025-06-03 12:24:02,017 - INFO - Created directory artifacts
+2025-06-03 12:24:02,025 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 12:24:02,025 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 12:27:24,170 - INFO - config\config.yaml loaded successfully
+2025-06-03 12:27:24,176 - INFO - params.yaml loaded successfully
+2025-06-03 12:27:24,180 - INFO - Created directory artifacts
+2025-06-03 12:27:24,183 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 12:27:24,185 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 12:29:58,762 - INFO - config\config.yaml loaded successfully
+2025-06-03 12:29:58,770 - INFO - params.yaml loaded successfully
+2025-06-03 12:29:58,770 - INFO - Created directory artifacts
+2025-06-03 12:29:58,778 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 12:29:58,787 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 13:10:25,844 - INFO - Data Ingestion Stage started
+2025-06-03 13:10:25,853 - INFO - config\config.yaml loaded successfully
+2025-06-03 13:10:25,861 - INFO - params.yaml loaded successfully
+2025-06-03 13:10:25,861 - INFO - Created directory artifacts
+2025-06-03 13:10:25,861 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 13:10:25,869 - INFO - file is already downloaded
+2025-06-03 13:10:26,587 - INFO - Data Ingestion Stage completed
+2025-06-03 13:10:26,587 - INFO - Prepare Base Model Pipeline started
+2025-06-03 13:10:26,595 - INFO - config\config.yaml loaded successfully
+2025-06-03 13:10:26,595 - INFO - params.yaml loaded successfully
+2025-06-03 13:10:26,595 - INFO - Created directory artifacts
+2025-06-03 13:10:26,595 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 13:10:27,424 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 13:10:27,782 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 13:10:28,002 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 13:10:28,002 - INFO - Prepare Callback Pipeline started
+2025-06-03 13:10:28,011 - INFO - config\config.yaml loaded successfully
+2025-06-03 13:10:28,015 - INFO - params.yaml loaded successfully
+2025-06-03 13:10:28,017 - INFO - Created directory artifacts
+2025-06-03 13:10:28,018 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 13:10:28,019 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 13:10:28,020 - INFO - Prepare Callback Pipeline completed
+2025-06-03 18:29:06,962 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:29:06,978 - INFO - params.yaml loaded successfully
+2025-06-03 18:29:06,986 - INFO - Created directory artifacts
+2025-06-03 18:29:06,986 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:29:06,994 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:29:06,994 - INFO - Created directory artifacts\training
+2025-06-03 18:29:07,931 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:31:00,010 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:31:00,022 - INFO - params.yaml loaded successfully
+2025-06-03 18:31:00,027 - INFO - Created directory artifacts
+2025-06-03 18:31:00,031 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:31:00,035 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:31:00,039 - INFO - Created directory artifacts\training
+2025-06-03 18:31:00,444 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:32:23,826 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:32:23,826 - INFO - params.yaml loaded successfully
+2025-06-03 18:32:23,834 - INFO - Created directory artifacts
+2025-06-03 18:32:23,834 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:32:23,834 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:32:23,842 - INFO - Created directory artifacts\training
+2025-06-03 18:32:24,327 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:38:43,634 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:38:43,643 - INFO - params.yaml loaded successfully
+2025-06-03 18:38:43,643 - INFO - Created directory artifacts
+2025-06-03 18:38:43,651 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:38:43,651 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:38:43,659 - INFO - Created directory artifacts\training
+2025-06-03 18:38:44,094 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:38:52,662 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:38:52,676 - INFO - params.yaml loaded successfully
+2025-06-03 18:38:52,680 - INFO - Created directory artifacts
+2025-06-03 18:38:52,684 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:38:52,687 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:38:52,692 - INFO - Created directory artifacts\training
+2025-06-03 18:38:53,083 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:39:12,242 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:39:12,252 - INFO - params.yaml loaded successfully
+2025-06-03 18:39:12,257 - INFO - Created directory artifacts
+2025-06-03 18:39:12,261 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:39:12,264 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:39:12,270 - INFO - Created directory artifacts\training
+2025-06-03 18:39:12,666 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:45:38,096 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:45:38,096 - INFO - params.yaml loaded successfully
+2025-06-03 18:45:38,096 - INFO - Created directory artifacts
+2025-06-03 18:45:38,096 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:45:38,112 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:45:38,112 - INFO - Created directory artifacts\training
+2025-06-03 18:45:38,581 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:47:44,305 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:47:44,315 - INFO - params.yaml loaded successfully
+2025-06-03 18:47:44,316 - INFO - Created directory artifacts
+2025-06-03 18:47:44,319 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:47:44,319 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:47:44,326 - INFO - Created directory artifacts\training
+2025-06-03 18:47:44,760 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 18:52:09,004 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:52:09,014 - INFO - params.yaml loaded successfully
+2025-06-03 18:52:09,017 - INFO - Created directory artifacts
+2025-06-03 18:52:09,020 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 18:52:09,737 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 18:52:52,273 - INFO - config\config.yaml loaded successfully
+2025-06-03 18:52:52,283 - INFO - params.yaml loaded successfully
+2025-06-03 18:52:52,286 - INFO - Created directory artifacts
+2025-06-03 18:52:52,290 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 18:52:52,290 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 18:52:52,297 - INFO - Created directory artifacts\training
+2025-06-03 18:52:52,783 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 19:24:58,011 - INFO - config\config.yaml loaded successfully
+2025-06-03 19:24:58,019 - INFO - params.yaml loaded successfully
+2025-06-03 19:24:58,027 - INFO - Created directory artifacts
+2025-06-03 19:24:58,028 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 19:24:58,031 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 19:24:58,034 - INFO - Created directory artifacts\training
+2025-06-03 19:24:58,607 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 21:00:16,968 - INFO - Data Ingestion Stage started
+2025-06-03 21:00:16,972 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:16,976 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:16,977 - INFO - Created directory artifacts
+2025-06-03 21:00:16,978 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:00:16,978 - INFO - file is already downloaded
+2025-06-03 21:00:17,245 - INFO - Data Ingestion Stage completed
+2025-06-03 21:00:17,245 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:00:17,249 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:17,251 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:17,251 - INFO - Created directory artifacts
+2025-06-03 21:00:17,252 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:00:17,754 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:00:17,942 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:00:18,071 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:00:18,072 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:00:18,075 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:18,078 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:18,078 - INFO - Created directory artifacts
+2025-06-03 21:00:18,079 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:00:18,080 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:00:18,081 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:00:18,081 - INFO - Model Trainer Pipeline started
+2025-06-03 21:00:18,085 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:18,089 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:18,090 - INFO - Created directory artifacts
+2025-06-03 21:00:18,090 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:00:18,091 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:00:18,092 - INFO - Created directory artifacts\training
+2025-06-03 21:00:18,339 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 21:00:39,282 - INFO - Data Ingestion Stage started
+2025-06-03 21:00:39,286 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:39,289 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:39,290 - INFO - Created directory artifacts
+2025-06-03 21:00:39,290 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:00:39,291 - INFO - file is already downloaded
+2025-06-03 21:00:39,523 - INFO - Data Ingestion Stage completed
+2025-06-03 21:00:39,524 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:00:39,527 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:39,530 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:39,530 - INFO - Created directory artifacts
+2025-06-03 21:00:39,531 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:00:39,943 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:00:40,105 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:00:40,223 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:00:40,224 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:00:40,228 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:40,231 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:40,232 - INFO - Created directory artifacts
+2025-06-03 21:00:40,233 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:00:40,233 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:00:40,234 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:00:40,234 - INFO - Model Trainer Pipeline started
+2025-06-03 21:00:40,238 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:00:40,241 - INFO - params.yaml loaded successfully
+2025-06-03 21:00:40,241 - INFO - Created directory artifacts
+2025-06-03 21:00:40,242 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:00:40,242 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:00:40,243 - INFO - Created directory artifacts\training
+2025-06-03 21:00:40,445 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 21:08:14,398 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:08:14,403 - INFO - params.yaml loaded successfully
+2025-06-03 21:08:14,405 - INFO - Created directory artifacts
+2025-06-03 21:08:14,407 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:08:14,408 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:08:14,410 - INFO - Created directory artifacts\training
+2025-06-03 21:08:14,853 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-03 21:14:13,497 - INFO - Data Ingestion Stage started
+2025-06-03 21:14:13,497 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:14:13,512 - INFO - params.yaml loaded successfully
+2025-06-03 21:14:13,512 - INFO - Created directory artifacts
+2025-06-03 21:14:13,513 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:14:13,513 - INFO - file is already downloaded
+2025-06-03 21:14:13,766 - INFO - Data Ingestion Stage completed
+2025-06-03 21:14:13,766 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:14:13,766 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:14:13,766 - INFO - params.yaml loaded successfully
+2025-06-03 21:14:13,766 - INFO - Created directory artifacts
+2025-06-03 21:14:13,766 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:14:14,202 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:14:14,390 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:14:14,534 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:14:14,534 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:14:14,534 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:14:14,534 - INFO - params.yaml loaded successfully
+2025-06-03 21:14:14,534 - INFO - Created directory artifacts
+2025-06-03 21:14:14,534 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:14:14,545 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:14:14,546 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:14:14,546 - INFO - Model Trainer Pipeline started
+2025-06-03 21:14:14,550 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:14:14,552 - INFO - params.yaml loaded successfully
+2025-06-03 21:14:14,553 - INFO - Created directory artifacts
+2025-06-03 21:14:14,554 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:14:14,555 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:14:14,556 - INFO - Created directory artifacts\training
+2025-06-03 21:14:14,784 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-06-03 21:17:55,100 - INFO - Data Ingestion Stage started
+2025-06-03 21:17:55,100 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:17:55,100 - INFO - params.yaml loaded successfully
+2025-06-03 21:17:55,100 - INFO - Created directory artifacts
+2025-06-03 21:17:55,100 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:17:55,100 - INFO - file is already downloaded
+2025-06-03 21:17:55,324 - INFO - Data Ingestion Stage completed
+2025-06-03 21:17:55,324 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:17:55,324 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:17:55,339 - INFO - params.yaml loaded successfully
+2025-06-03 21:17:55,339 - INFO - Created directory artifacts
+2025-06-03 21:17:55,339 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:17:55,768 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:17:55,947 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:17:56,056 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:17:56,056 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:17:56,072 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:17:56,072 - INFO - params.yaml loaded successfully
+2025-06-03 21:17:56,072 - INFO - Created directory artifacts
+2025-06-03 21:17:56,076 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:17:56,077 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:17:56,078 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:17:56,078 - INFO - Model Trainer Pipeline started
+2025-06-03 21:17:56,080 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:17:56,084 - INFO - params.yaml loaded successfully
+2025-06-03 21:17:56,084 - INFO - Created directory artifacts
+2025-06-03 21:17:56,085 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:17:56,085 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:17:56,086 - INFO - Created directory artifacts\training
+2025-06-03 21:20:47,815 - INFO - Data Ingestion Stage started
+2025-06-03 21:20:47,825 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:20:47,828 - INFO - params.yaml loaded successfully
+2025-06-03 21:20:47,828 - INFO - Created directory artifacts
+2025-06-03 21:20:47,829 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:20:47,829 - INFO - file is already downloaded
+2025-06-03 21:20:48,075 - INFO - Data Ingestion Stage completed
+2025-06-03 21:20:48,075 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:20:48,079 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:20:48,081 - INFO - params.yaml loaded successfully
+2025-06-03 21:20:48,081 - INFO - Created directory artifacts
+2025-06-03 21:20:48,082 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:20:48,517 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:20:48,691 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:20:48,928 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:20:48,928 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:20:48,928 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:20:48,928 - INFO - params.yaml loaded successfully
+2025-06-03 21:20:48,928 - INFO - Created directory artifacts
+2025-06-03 21:20:48,936 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:20:48,936 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:20:48,938 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:20:48,938 - INFO - Model Trainer Pipeline started
+2025-06-03 21:20:48,942 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:20:48,944 - INFO - params.yaml loaded successfully
+2025-06-03 21:20:48,945 - INFO - Created directory artifacts
+2025-06-03 21:20:48,946 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:20:48,947 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:20:48,948 - INFO - Created directory artifacts\training
+2025-06-03 21:26:39,101 - INFO - Data Ingestion Stage started
+2025-06-03 21:26:39,105 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:26:39,107 - INFO - params.yaml loaded successfully
+2025-06-03 21:26:39,108 - INFO - Created directory artifacts
+2025-06-03 21:26:39,108 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:26:39,109 - INFO - file is already downloaded
+2025-06-03 21:26:39,318 - INFO - Data Ingestion Stage completed
+2025-06-03 21:26:39,319 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:26:39,322 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:26:39,324 - INFO - params.yaml loaded successfully
+2025-06-03 21:26:39,324 - INFO - Created directory artifacts
+2025-06-03 21:26:39,324 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:26:39,720 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:26:39,889 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:26:40,010 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:26:40,010 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:26:40,014 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:26:40,017 - INFO - params.yaml loaded successfully
+2025-06-03 21:26:40,018 - INFO - Created directory artifacts
+2025-06-03 21:26:40,019 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:26:40,019 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:26:40,019 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:26:40,020 - INFO - Model Trainer Pipeline started
+2025-06-03 21:26:40,023 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:26:40,025 - INFO - params.yaml loaded successfully
+2025-06-03 21:26:40,026 - INFO - Created directory artifacts
+2025-06-03 21:26:40,026 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:26:40,027 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:26:40,028 - INFO - Created directory artifacts\training
+2025-06-03 21:28:31,382 - INFO - Data Ingestion Stage started
+2025-06-03 21:28:31,397 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:28:31,397 - INFO - params.yaml loaded successfully
+2025-06-03 21:28:31,397 - INFO - Created directory artifacts
+2025-06-03 21:28:31,397 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:28:31,402 - INFO - file is already downloaded
+2025-06-03 21:28:31,606 - INFO - Data Ingestion Stage completed
+2025-06-03 21:28:31,607 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:28:31,607 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:28:31,607 - INFO - params.yaml loaded successfully
+2025-06-03 21:28:31,607 - INFO - Created directory artifacts
+2025-06-03 21:28:31,607 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:28:31,983 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:28:32,177 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:28:32,273 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:28:32,273 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:28:32,289 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:28:32,289 - INFO - params.yaml loaded successfully
+2025-06-03 21:28:32,289 - INFO - Created directory artifacts
+2025-06-03 21:28:32,289 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:28:32,297 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:28:32,298 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:28:32,298 - INFO - Model Trainer Pipeline started
+2025-06-03 21:28:32,301 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:28:32,303 - INFO - params.yaml loaded successfully
+2025-06-03 21:28:32,303 - INFO - Created directory artifacts
+2025-06-03 21:28:32,304 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:28:32,304 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:28:32,305 - INFO - Created directory artifacts\training
+2025-06-03 21:30:59,293 - INFO - Data Ingestion Stage started
+2025-06-03 21:30:59,293 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:30:59,311 - INFO - params.yaml loaded successfully
+2025-06-03 21:30:59,311 - INFO - Created directory artifacts
+2025-06-03 21:30:59,311 - INFO - Created directory artifacts/data_ingestion
+2025-06-03 21:30:59,311 - INFO - file is already downloaded
+2025-06-03 21:30:59,712 - INFO - Data Ingestion Stage completed
+2025-06-03 21:30:59,712 - INFO - Prepare Base Model Pipeline started
+2025-06-03 21:30:59,712 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:30:59,725 - INFO - params.yaml loaded successfully
+2025-06-03 21:30:59,725 - INFO - Created directory artifacts
+2025-06-03 21:30:59,725 - INFO - Created directory artifacts/prepare_base_model
+2025-06-03 21:31:00,315 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:31:00,629 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:31:00,803 - INFO - Prepare Base Model Pipeline completed
+2025-06-03 21:31:00,803 - INFO - Prepare Callback Pipeline started
+2025-06-03 21:31:00,803 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:31:00,819 - INFO - params.yaml loaded successfully
+2025-06-03 21:31:00,820 - INFO - Created directory artifacts
+2025-06-03 21:31:00,820 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:31:00,820 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:31:00,823 - INFO - Prepare Callback Pipeline completed
+2025-06-03 21:31:00,823 - INFO - Model Trainer Pipeline started
+2025-06-03 21:31:00,826 - INFO - config\config.yaml loaded successfully
+2025-06-03 21:31:00,833 - INFO - params.yaml loaded successfully
+2025-06-03 21:31:00,833 - INFO - Created directory artifacts
+2025-06-03 21:31:00,833 - INFO - Created directory artifacts\prepare_callbacks\checkpoint_dir
+2025-06-03 21:31:00,833 - INFO - Created directory artifacts\prepare_callbacks\tensorboard_log_dir
+2025-06-03 21:31:00,833 - INFO - Created directory artifacts\training
+2025-06-03 21:31:43,725 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:31:43,857 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 21:31:43,998 - INFO - Model Trainer Pipeline completed
