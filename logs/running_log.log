@@ -772,3 +772,40 @@ Source-Age: 1
 2025-06-04 13:51:51,694 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
 2025-06-04 13:52:00,561 - INFO - JSON file saved at scores.json
 2025-06-04 13:52:00,561 - INFO - Model Evaluation ended
+2025-06-04 17:38:43,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-06-04 17:38:43,438 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 17:38:43,446 - INFO -  * Restarting with stat
+2025-06-04 17:38:54,387 - WARNING -  * Debugger is active!
+2025-06-04 17:38:54,431 - INFO -  * Debugger PIN: 958-366-214
+2025-06-04 17:38:54,706 - INFO - 127.0.0.1 - - [04/Jun/2025 17:38:54] "GET / HTTP/1.1" 200 -
+2025-06-04 17:39:27,824 - INFO - 127.0.0.1 - - [04/Jun/2025 17:39:27] "[33mPOST /predict HTTP/1.1[0m" 404 -
+2025-06-04 17:41:06,842 - INFO - 127.0.0.1 - - [04/Jun/2025 17:41:06] "GET / HTTP/1.1" 200 -
+2025-06-04 17:53:56,740 - INFO - 127.0.0.1 - - [04/Jun/2025 17:53:56] "GET / HTTP/1.1" 200 -
+2025-06-04 17:57:16,523 - INFO - 127.0.0.1 - - [04/Jun/2025 17:57:16] "GET / HTTP/1.1" 200 -
+2025-06-04 17:57:22,708 - INFO - 127.0.0.1 - - [04/Jun/2025 17:57:22] "[33mPOST /predict HTTP/1.1[0m" 404 -
+2025-06-04 18:00:44,847 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\deep-learning\\app.py', reloading
+2025-06-04 18:00:45,854 - INFO -  * Restarting with stat
+2025-06-04 18:00:51,617 - WARNING -  * Debugger is active!
+2025-06-04 18:00:51,617 - INFO -  * Debugger PIN: 958-366-214
+2025-06-04 18:01:38,607 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:38] "GET / HTTP/1.1" 200 -
+2025-06-04 18:01:59,400 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-06-04 18:01:59,416 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 18:01:59,419 - INFO -  * Restarting with stat
+2025-06-04 18:02:03,880 - WARNING -  * Debugger is active!
+2025-06-04 18:02:03,880 - INFO -  * Debugger PIN: 958-366-214
+2025-06-04 18:02:06,548 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:06] "GET / HTTP/1.1" 200 -
+2025-06-04 18:02:11,090 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:11] "GET / HTTP/1.1" 200 -
+2025-06-04 18:02:19,491 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:19] "[33mPOST /predict HTTP/1.1[0m" 404 -
+2025-06-04 18:05:30,564 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\deep-learning\\app.py', reloading
+2025-06-04 18:05:31,156 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\deep-learning\\app.py', reloading
+2025-06-04 18:05:31,434 - INFO -  * Restarting with stat
+2025-06-04 18:05:32,033 - INFO -  * Restarting with stat
+2025-06-04 18:05:37,681 - WARNING -  * Debugger is active!
+2025-06-04 18:05:37,681 - INFO -  * Debugger PIN: 958-366-214
+2025-06-04 18:05:37,696 - INFO -  * Debugger PIN: 958-366-214

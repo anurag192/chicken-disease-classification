@@ -8,6 +8,7 @@ import yaml
 from box import ConfigBox
 from src.cnnClassifier import logger
 from box.exceptions import BoxValueError
+import base64
 
 @ensure_annotations
 
