@@ -1,6 +1,10 @@
-from src.cnnClassifier.entity.config_entity import DataIngestionConfig
-from src.cnnClassifier.config.configuration import ConfigurationManager
-from src.cnnClassifier.components.data_ingestion import DataIngestion
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../")))
+
+from src.cnnClassifier.entity.config_entity import (DataIngestionConfig)
+from src.cnnClassifier.config.configuration import (ConfigurationManager)
+from src.cnnClassifier.components.data_ingestion import (DataIngestion)
 
 from src.cnnClassifier import logger
 

@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../")))
+
 from src.cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.prepare_base_model import PrepareBaseModel
