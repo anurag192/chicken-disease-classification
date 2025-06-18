@@ -46,20 +46,44 @@ Early detection of chicken diseases like **Coccidiosis** is crucial for reducing
 
 
 ---
-
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+Follow these steps to get the project up and running locally:
 
-```bash
-git clone https://github.com/anurag192/chicken-disease-classification.git
-cd chicken-disease-classification
+1️⃣ Clone the repository  
+`git clone https://github.com/anurag192/chicken-disease-classification.git`  
+`cd chicken-disease-classification`
 
-### 2. Create environment and install dependencies
-conda create -n chicken python=3.8 -y
-conda activate chicken
-pip install -r requirements.txt
+2️⃣ Create environment & install dependencies  
 
-python main.py
+✅ Using Conda (recommended):  
+`conda create -n chicken python=3.8 -y`  
+`conda activate chicken`  
+`pip install -r requirements.txt`
+
+✅ Or using venv:  
+`python -m venv chicken-env`  
+`source chicken-env/bin/activate` (On Windows: `chicken-env\Scripts\activate`)  
+`pip install -r requirements.txt`
+
+3️⃣ Train the model  
+`python main.py`  
+This will execute the training pipeline and save model artifacts.
+
+4️⃣ Run the web application  
+`python app.py`  
+Then open your browser and go to: `http://localhost:5000`
+
+🔄 Reproduce Pipeline with DVC  
+Ensure DVC is installed:  
+`pip install dvc`  
+Then run:  
+`dvc init`  
+`dvc repro`  
+This executes all steps defined in `dvc.yaml` like data loading, training, and evaluation.
+
+
+
+
 
 
