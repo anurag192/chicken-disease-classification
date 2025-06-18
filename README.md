@@ -28,17 +28,20 @@ Early detection of chicken diseases like **Coccidiosis** is crucial for reducing
 ---
 
 ## 📂 Project Structure
-├── config/ # Configuration YAMLs
-├── src/cnnClassifier/ # Core modules (data loader, model builder, trainer, etc.)
-├── templates/ # HTML files for web UI
-├── app.py # Flask web app
-├── main.py # Model training pipeline
-├── params.yaml # Hyperparameters & config paths
-├── dvc.yaml # DVC pipeline definition
-├── requirements.txt # Project dependencies
-├── Dockerfile # Docker container spec
-├── setup.py # Project packaging
-└── .github/workflows/ # CI/CD GitHub Actions
+
+```bash
+├── config/                 # Configuration YAMLs
+├── src/cnnClassifier/      # Core modules (data loader, model builder, trainer, etc.)
+├── templates/              # HTML files for web UI
+├── app.py                  # Flask web app
+├── main.py                 # Model training pipeline
+├── params.yaml             # Hyperparameters & config paths
+├── dvc.yaml                # DVC pipeline definition
+├── requirements.txt        # Project dependencies
+├── Dockerfile              # Docker container spec
+├── setup.py                # Project packaging
+└── .github/workflows/      # CI/CD GitHub Actions
+
 
 
 
