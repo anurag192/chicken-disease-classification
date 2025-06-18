@@ -28,4 +28,35 @@ Early detection of chicken diseases like **Coccidiosis** is crucial for reducing
 ---
 
 ## 📂 Project Structure
+├── config/ # Configuration YAMLs
+├── src/cnnClassifier/ # Core modules (data loader, model builder, trainer, etc.)
+├── templates/ # HTML files for web UI
+├── app.py # Flask web app
+├── main.py # Model training pipeline
+├── params.yaml # Hyperparameters & config paths
+├── dvc.yaml # DVC pipeline definition
+├── requirements.txt # Project dependencies
+├── Dockerfile # Docker container spec
+├── setup.py # Project packaging
+└── .github/workflows/ # CI/CD GitHub Actions
+
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/anurag192/chicken-disease-classification.git
+cd chicken-disease-classification
+
+### 2. Create environment and install dependencies
+conda create -n chicken python=3.8 -y
+conda activate chicken
+pip install -r requirements.txt
+
+python main.py
+
 
